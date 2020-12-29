@@ -10,7 +10,7 @@ local 저장소는 세 개로 구성되어 있다. <br>
 
 ### 1. 서버에 있는 저장소를 clone
 
-### 1. 기존 프로젝트를 git저장소로
+### 2. 기존 프로젝트를 git저장소로
 - git init 
 .git이라는 하위 디렉토리를 만든다.  .git디렉토리에는 저장소의 skeleton이 있다.
 - 이후 staging해서 commit
