@@ -6,6 +6,12 @@
 
 ### [git-command2](https://m.blog.naver.com/PostView.nhn?blogId=jdusans&logNo=222043705693&proxyReferer=http:%2F%2Fm.facebook.com%2F)
 
+### [git-command3](https://webclub.tistory.com/317)
+
+### [.gitignore1](https://nesoy.github.io/articles/2017-01/Git-Ignore)
+
+### [.gitignore](https://gbsb.tistory.com/11)
+
 ### [commit-message-tip](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 
 ### git-commit/pull-unmerged-conflict
@@ -20,3 +26,7 @@
 
 ### [mark-down-manual](https://heropy.blog/2017/09/30/markdown/)
 
+
+## JAVA
+
+### [first-of-java](https://wikidocs.net/887)
