@@ -10,7 +10,7 @@ local 저장소는 세 개로 구성되어 있다. <br>
 
 ### 1. 서버에 있는 저장소를 clone
 
-### 2. 기존 프로젝트를 git저장소로
+### 1. 기존 프로젝트를 git저장소로
 - git init 
 .git이라는 하위 디렉토리를 만든다.  .git디렉토리에는 저장소의 skeleton이 있다.
 - 이후 staging해서 commit
@@ -48,6 +48,14 @@ local 저장소는 세 개로 구성되어 있다. <br>
 1. git commit -m "message": stage한 후 modify하면 다시 unstage됨. 이후 다시 staging필요.
 1. git commit -am "message": a option을 추가하면 tracked file은 자동으로 staging area에 추가함.
 
+### git fetch
+- git fetch: origin 저장소에서 합치지 않고 지역 브랜치로 변경 사항 가져오기
+- git fetch [remote-repos]: remote repos에서 합치지 않고 local repos로 변경 사항 가져오기
+
+### git pull
+- git pull: origin 저장소에서 변경 사항을 가져와 current branch에 합치기
+- [remote-repos]: remote repos에서 변경 사항을 가져와 current branch에 합치기
+
 ### git rm
 
 - git에서 파일을 제거하는 것. git rm [file] 앞의 명령어를 수행하면 file을 staging area와 working dir에서 삭제한다. 앞의 명령어 없이 파일을 수정하거나 staging area에 추가했다면 -f option을 통해 강제로 삭제할 수 있다.
@@ -84,7 +92,49 @@ git status command를 통해 본다면 (use "git reset HEAD ..." to unstage)와 
 - first, use git status command. and e.g. as follows.
 - (use "git add ..." to update what will be committed), (use "git checkout -- ..." to discard changed in working dir)
 
+## branch
+
+### generate-branch
+- git branch: show local branch list
+- git branch -r: show remote branch list
+- git branch -a: show both branch
+- git branch [new-branch-name]: 현재 브랜치에서 새로운 브랜치 생성하기
+- git checkout [branch-name]: 다른 브랜치 체크아웃
+- git checkout -b [new-branch-name]: 현재 브랜치에서 새로운 브랜치 생성하고 체크아웃
+- git checkout -m [branch-name] [new-branch-name]: 브랜치를 옮기거나 이름 변경 (새로운 브랜치가 존재하지 않을 경우)
+- git checkout -M [branch-name] [new-branch-name]: 브랜치를 옮기거나 이름 변경 (새로운 브랜치가 존재할 경우 무조건 덮어쓰기)
+- git merge [branch-name]: 다른 브랜치를 현재 브랜치로 합치기
+- git merge --no-commit [branch-name]: 커밋하지 않고 합치기
+- git cherry-pick [commit-name]: 선택하여 합치기
+- git cherry-pick -n [commit-name]: 커밋하지 않고 선택하여 합치기
+- git merge --squash [branch-name]: 브랜치의 이력을 다른 브랜치에 합치기
+- git branch -d [branch-want-del]: 브랜치 삭제하기 (삭제할 브랜치가 현재 브랜치에 합쳐졌을 경우에만)
+- git branch -D [branch-want-del]: 브랜치 삭제하기 (삭제할 브랜치가 현재 브랜치에 합쳐지지 않았어도)
+
+## log-of-git
+
+### git log
+- git log: 모든 이력 보기
+- -p: 변경사항을 보여주는 패치와 함께 로그 표시
+- -[num]: 숫자만큼의 항목만 보이도록 로그 개수 제한
+- -20 -p: 20개의 항목과 패치가 보임
+- --before="2days": 2일 전까지의 커밋 로그 표시
+- -1 HEAD-3 또는 -1 HEAD^^^: HEAD보다 세 개 이전의 커밋 로그 표시
+- --pretty-oneline: 각 항목의 로그 한 줄씩 보기
+- --stat: 각 항목마다 영향 받은 줄의 통계 보기
+- --name-status: 커밋할 시점의 파일 상태 보기
+
+### git diff
+- git diff: current working tree와 index의 차이점 보기
+- --cached: index와 repos의 차이점 보기
+- HEAD: working tree와 repos의 차이점 보기
+- [starting-point]: working tree와 특정 지점 간의 차이점 보기 (starting-point는 commit-name, branch-name, tag-name이 될 수 있다.)
+- [starting-point] [[ending-point]]: 저장소의 두 지점 사이의 차이점 보기
+- --stat [starting-point] [[ending-point]]: 차이점의 통계 보기
+- git blame [file]: file의 commit info 줄 단위로 보기
+
 ## usually-use-command
+
 - $ git branch -> 로컬 branch 확인 
 - $ git branch -r 서버 branch 확인 
 - $ git checkout -b 브랜치명 브랜치를 만들고 바로 이동 
