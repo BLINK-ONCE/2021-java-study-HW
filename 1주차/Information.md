@@ -21,6 +21,8 @@
 
 ### [delete-remote-repository-branch](https://remagine.tistory.com/17)
 
+### [git remote branch 가져오기](https://cjh5414.github.io/get-git-remote-branch/)
+
 
 ## MD
 
