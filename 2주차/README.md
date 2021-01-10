@@ -175,8 +175,8 @@ Method Area는 클래스 데이터를 위한 공간. Heap영역은 객체를 위
 
 
 ### Heap(힙 영역)
-객체를 저장하는 가상 메모리 공간이다. new연산자로 생성된 객체와 배열을 저장한다. 물론 class area영역에 올라온 클래스들만 객체로 생성할 수 있다. 
-![Heap](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F273DE43656FA92B60D)
+객체를 저장하는 가상 메모리 공간이다. new연산자로 생성된 객체와 배열을 저장한다. 물론 class area영역에 올라온 클래스들만 객체로 생성할 수 있다. <br>
+![Heap](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F273DE43656FA92B60D) <br>
 Heap은 세 부분으로 나뉜다. 
 
 #### Permanent Generation
@@ -234,7 +234,7 @@ JRE는 단지 자바 프로그램을 구동하기 위한 독립형 구성요소�
 소프트웨어는 시스템 하드웨어 위에 위치하는 일련의 계층으로 볼 수 있다. 각 계층은 그 위의 계층이 사용하거나 필요한 서비스를 제공한다. JRE는 OS위에서 실행되면서 자바를 위한 부가적인 서비스를 제공하는 소프트웨어 계층이다. JRE는 다양한 운영체제의 요철을 매끄럽게 다듬에 자바 프로그램이 거의 모든 운영체제에서 수정 없이 실행될 수 있도록 한다. 또한 Automatic memory management는 프로그래머가 메모리 할당과 재할당을 수동으로 조작할 필요가 없게 해주는 JRE의 가장 중요한 서비스 중 하나다.
 
 ### JRE와 JVM의 상호작용
-JVM은 라이브 자바 프로그램 실행을 담당하는 실행 소프트웨어 시스템이다. JRE는 자바 코드를 받아서 필요한 라이브러리와 결합한 다음 이 코드를 실행할 JVM을 시작하는 온디스크 시스템이다. JRE에는 자바 프로램 실행에 필요한 라이브러리와 소프트웨어가 포함된다. 예를 들어 Java class loader는 JRE의 일부다. 이는 컴파일된 자바 코드를 메모리로 로드하고 적잘한 자바 클래스 라이브러리에 이 코드를 연결한다. JVM은 JRE에 의해 생성되는 것이다.
+JVM은 라이브 자바 프로그램 실행을 담당하는 실행 소프트웨어 시스템이다. JRE는 자바 코드를 받아서 필요한 라이브러리와 결합한 다음 이 코드를 실행할 JVM을 시작하는 온디스크 시스템이다. JRE에는 자바 프로램 실행에 필요한 라이브러리와 소프트웨어가 포함된다. 예를 들어 Java class loader는 JRE의 일부다. 이는 컴파일된 자바 코드를 메모리로 로드하고 적잘한 자바 클래스 라이브러리에 이 코드를 연결한다. JVM은 JRE에 의해 생성되는 것이다. <br>
 ![JRE, JVM](https://files.itworld.co.kr/archive/image/2018/09/jre-100771531-medium.jpg)
 
 
