@@ -19,9 +19,13 @@
 
 - [merge-conflict](https://wayhome25.github.io/git/2017/04/05/git-04-merge/)
 
-### [delete-remote-repository-branch](https://remagine.tistory.com/17)
+### remote branch
+- [delete-remote-repository-branch](https://remagine.tistory.com/17)
 
-### [git remote branch 가져오기](https://cjh5414.github.io/get-git-remote-branch/)
+- [git remote branch 가져오기](https://cjh5414.github.io/get-git-remote-branch/)
+
+### git commit
+- [git commit 취소하기](https://velog.io/@hidaehyunlee/Git-add-commit-push-%EC%B7%A8%EC%86%8C%ED%95%98%EA%B8%B0)
 
 
 ## MD
