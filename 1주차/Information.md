@@ -36,3 +36,4 @@
 ## JAVA
 
 ### [first-of-java](https://wikidocs.net/887)
+### ['non-static method cannot be referenced from a static context' error](http://blog.naver.com/PostView.nhn?blogId=kdy0573&logNo=150168329722)
