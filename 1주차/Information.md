@@ -12,7 +12,7 @@
 
 ### [.gitignore](https://gbsb.tistory.com/11)
 
-### [commit-message-tip](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+### [git commit message convention](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 
 ### git-commit/pull-unmerged-conflict
  - [error-message: commiting-is-not-possible-because-you-have-unmerged-files.](https://velog.io/@2ujin/%EA%B9%83-Pull-is-not-possible-because-you-have-unmerged-files-%EC%97%90%EB%9F%AC)
@@ -30,9 +30,9 @@
 ### copy git commit
 - [copying commited files on another branch](https://riptutorial.com/ko/git/example/2188/%ED%95%9C-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%97%90%EC%84%9C-%EB%8B%A4%EB%A5%B8-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%A1%9C-%EC%BB%A4%EB%B0%8B-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0)
 
-### update forked repository by original repository
-- [update forked repository by original repository 1](http://www.notforme.kr/archives/1631)
-- [update forked repository by original repository 2](https://json.postype.com/post/210431)
+### update forked repository from original repository
+- [update forked repository from original repository 1](http://www.notforme.kr/archives/1631)
+- [update forked repository from original repository 2](https://json.postype.com/post/210431)
 
 
 
