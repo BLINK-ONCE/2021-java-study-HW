@@ -12,7 +12,9 @@
 
 ### [.gitignore](https://gbsb.tistory.com/11)
 
-### [git commit message convention](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+### git commit message convention
+- [git commit message convention 1](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+- [git commit message convention 2](https://doublesprogramming.tistory.com/256)
 
 ### git-commit/pull-unmerged-conflict
  - [error-message: commiting-is-not-possible-because-you-have-unmerged-files.](https://velog.io/@2ujin/%EA%B9%83-Pull-is-not-possible-because-you-have-unmerged-files-%EC%97%90%EB%9F%AC)
