@@ -5,3 +5,4 @@ gradle
 out
 gradlew
 *.bat
+!5주차/5weeks/refactor\ string\ calculator/gradle/src/*
