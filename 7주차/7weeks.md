@@ -4,7 +4,7 @@
 
 ## 멤버 변수
 
-```
+```java
 private static final int TEN = 10; // 상수
 private static int age = 20; // 클래스 변수
 private final int value; // 인스턴스 변수
@@ -13,7 +13,7 @@ private final int value; // 인스턴스 변수
 ## 접근 지정자
 
 ## 문자, 문자열. 문자열과 객체 문자열(String)
-```
+```java
 String person = "윤지";
 String person2 = "윤지";
 
@@ -38,7 +38,7 @@ assertThat(person).isSameAs(person2);// X
 ```
 
 ## .equals() trick
-```
+```java
 void test01() {
     int result = calculator(1, 2, "+");
     assertThat(result).isEqualTo(3);
