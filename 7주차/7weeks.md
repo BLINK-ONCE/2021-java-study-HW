@@ -55,7 +55,7 @@ public int calculator(int val, int val2, String operator){
 
 ```operator.equlas("+")``` 처럼 확인하는 경우가 많다. 하지만 ```operator = null```일 경우 .equals()는 오류를 반환한다. 따로 예외처리를 해주어야 하며 코드가 길어진다.
 
-이 경우 위와 같이 ```"+".equals(operator)```로 할 경우, null과 비교하는 경우가 없기 때문에 코드가 길어지는 것을 방지할 수 있다.
+이 경우 위와 같이 ```"+".equals(operator)```로 할 경우, null과 비교한다. null이 비교대상일 때는 예외를 뱉지 않는다.
 
 
 ## list. ArryaList.
